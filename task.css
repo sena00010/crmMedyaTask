@@ -38,7 +38,7 @@
   line-height: 1.25;
 }
 
-._2_Kapak_Gorsel {
+.secondCoverImage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +52,7 @@
   z-index: 196;
 }
 
-.Slogan_Baslik {
+.sloganHeader {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -64,8 +64,8 @@
   z-index: 1;
 }
 
-.lacivert_yazi_zemini,
-.acik_mavi_yazi_zemini {
+.navyBlueBackground,
+.navyLightBackground {
   display: flex;
   align-items: center;
   background-color: rgb(183, 141, 107);
@@ -77,18 +77,18 @@
   box-sizing: border-box;
 }
 
-.acik_mavi_yazi_zemini {
+.navyLightBackground {
   background-color: rgb(1, 122, 138);
 }
 
-.Lorem_Ipsum_pasajlarının,
-.Cümle_Yapılarını_İçeren_Bir_Sözlük_Kullanır {
+.Lorem_Ipsum,
+.usesDictionaryContainingSentenceStructures {
   font-family: "PlayfairDisplay";
   color: rgb(255, 255, 255);
   line-height: 1.2;
 }
 
-.Lorem_Ipsum_pasajlarının {
+.Lorem_Ipsum {
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -97,7 +97,7 @@
   font-size: 24px;
 }
 
-._3_Hakkında {
+._3_About {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@
   box-sizing: border-box;
   z-index: 1;
 }
-._3_Hakkında::before {
+._3_About::before {
   content: "";
   position: absolute;
   top: 0;
@@ -122,7 +122,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   z-index: -1;
 }
-.Yinelenen_Bir_Sayfa_İçeriğinin_Okuyucunun_Dikka {
+.repeatedPageContent {
   font-size: 24px;
   font-family: "Myriad Pro";
   color: rgb(2, 39, 105);
@@ -131,7 +131,7 @@
   margin-bottom: 10px;
 }
 
-.Lorem_Ipsum_kullanmanın_amacı__sürekli__buraya_ {
+.secondLoremIpsum {
   font-size: 16px;
   font-family: "Myriad Pro";
   color: rgb(2, 39, 105);
@@ -139,7 +139,7 @@
   text-align: center;
 }
 
-._4_Odalar {
+._4_room {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -150,7 +150,7 @@
   box-sizing: border-box;
 }
 
-._4_Odalar img {
+._4_room img {
   margin-right: 20px;
 }
 
@@ -171,7 +171,7 @@
 .right-side button {
   align-self: flex-start;
 }
-._5_Olanaklar {
+._5_Opportunities {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,20 +248,20 @@
   z-index: 176;
 }
 
-.lacivert_yazi_zemini {
+.navyBlueBackground {
   background-color: rgb(183, 141, 107);
   margin: 5px 0;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
-.acik_mavi_yazi_zemini {
+.navyLightBackground {
   background-color: rgb(1, 122, 138);
   margin: 5px 0;
   padding: 0 20px;
   box-sizing: border-box;
 }
-.İmkan_ve_Olanaklar {
+.Possibilities_and_Opportunities {
   font-size: 32px;
   font-family: "PlayfairDisplay";
   color: rgb(0, 0, 0);
@@ -296,7 +296,7 @@
   z-index: -1;
 }
 
-.Özgürlüğü_Keşfet {
+.discoverFreedom {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -305,7 +305,7 @@
   color: rgb(2, 39, 105);
   line-height: 1.2;
 }
-.İnternet_teki_tüm_Lorem_Ipsum_üreteçleri_öncede {
+.All_Lorem_Ipsum_generators {
   font-size: 20px;
   font-family: "Roboto";
   color: rgb(2, 39, 105);
@@ -384,7 +384,7 @@
   color: white;
 }
 
-.Bilgi_Al_Btn {
+.ınfo_Btn {
   background-color: rgb(1, 122, 138);
   color: wheat;
   padding: 10px;
@@ -535,11 +535,11 @@
 }
 
 @media (max-width: 768px) {
-  ._2_Kapak_Gorsel {
+  .secondCoverImage {
     height: 400px;
   }
 
-  ._3_Hakkında {
+  ._3_About {
     height: auto;
     padding: 10px;
   }
@@ -549,8 +549,8 @@
     padding: 20px;
   }
 
-  .lacivert_yazi_zemini,
-  .acik_mavi_yazi_zemini {
+  .navyBlueBackground,
+  .navyLightBackground {
     height: auto;
     padding: 10px;
   }
@@ -575,16 +575,16 @@
 }
 
 @media (max-width: 576px) {
-  ._2_Kapak_Gorsel {
+  .secondCoverImage {
     height: 300px;
   }
 
-  ._3_Hakkında {
+  ._3_About {
     padding: 5px;
   }
 
-  .lacivert_yazi_zemini,
-  .acik_mavi_yazi_zemini {
+  .navyBlueBackground,
+  .navyLightBackground {
     padding: 5px;
   }
 
@@ -605,8 +605,8 @@
     font-size: 14px;
   }
 
-  .Yinelenen_Bir_Sayfa_İçeriğinin_Okuyucunun_Dikka,
-  .Lorem_Ipsum_kullanmanın_amacı__sürekli__buraya_ {
+  .repeatedPageContent,
+  .secondLoremIpsum {
     font-size: 14px;
   }
 
