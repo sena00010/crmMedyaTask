@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  bottom: 0;
+}
+.ust_menu_zemin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 198;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.Telefon_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(1, 122, 138);
+  border-radius: 16px;
+  width: 196px;
+  height: 40px;
+  z-index: 204;
+}
+
+.Telefon_btn img {
+  margin-right: 10px;
+}
+
+._90_252_623_99_38 {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.25;
+}
+
+._2_Kapak_Gorsel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./libertyfabay1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: 196;
+}
+
+.Slogan_Baslik {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.lacivert_yazi_zemini,
+.acik_mavi_yazi_zemini {
+  display: flex;
+  align-items: center;
+  background-color: rgb(183, 141, 107);
+  width: 535px;
+  height: 52px;
+  z-index: 1;
+
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.acik_mavi_yazi_zemini {
+  background-color: rgb(1, 122, 138);
+}
+
+.Lorem_Ipsum_pasajlarının,
+.Cümle_Yapılarını_İçeren_Bir_Sözlük_Kullanır {
+  font-family: "PlayfairDisplay";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.Lorem_Ipsum_pasajlarının {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.Cümle_Yapılarını_İçeren_Bir_Sözlük_Kullanır {
+  font-size: 24px;
+}
+
+._3_Hakkında {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./Screen\ Shot\ 2021-12-01\ at\ 19.17.00.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+._3_Hakkında::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+}
+.Yinelenen_Bir_Sayfa_İçeriğinin_Okuyucunun_Dikka {
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(2, 39, 105);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Lorem_Ipsum_kullanmanın_amacı__sürekli__buraya_ {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(2, 39, 105);
+  line-height: 1.375;
+  text-align: center;
+}
+
+._4_Odalar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(31, 27, 27);
+  width: 100%;
+  height: 475px;
+  box-sizing: border-box;
+}
+
+._4_Odalar img {
+  margin-right: 20px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  gap: 15px;
+  color: white;
+  width: 50%;
+}
+
+.right-side span {
+  margin-bottom: 10px;
+}
+
+.right-side button {
+  align-self: flex-start;
+}
+._5_Olanaklar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.opportunity {
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.opportunity-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: rgb(183, 141, 107);
+  border-style: solid;
+  width: 120px;
+  height: 128px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  z-index: 189;
+}
+
+.kategori_buton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  z-index: 187;
+}
+
+.Ust_Gradient,
+.Alt_Gradient {
+  width: 100%;
+  height: 174px;
+  z-index: 181;
+  opacity: 0.502;
+}
+
+.slider_gradient_copy {
+  background-image: linear-gradient(
+    180deg,
+    rgb(37, 57, 141) 0%,
+    rgba(37, 57, 142, 0) 100%
+  );
+  opacity: 0.702;
+  width: 517px;
+  height: 452px;
+  z-index: 177;
+}
+
+._960x570 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 540px;
+  z-index: 176;
+}
+
+.lacivert_yazi_zemini {
+  background-color: rgb(183, 141, 107);
+  margin: 5px 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.acik_mavi_yazi_zemini {
+  background-color: rgb(1, 122, 138);
+  margin: 5px 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.İmkan_ve_Olanaklar {
+  font-size: 32px;
+  font-family: "PlayfairDisplay";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.48;
+  text-align: center;
+  margin-top: 40px;
+}
+
+._ShortInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("./Liberty_fabay_fethiye_discover_01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+._ShortInfo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(252, 252, 235, 0.5);
+  z-index: -1;
+}
+
+.Özgürlüğü_Keşfet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 31px;
+  font-family: "SnellRoundhand";
+  color: rgb(2, 39, 105);
+  line-height: 1.2;
+}
+.İnternet_teki_tüm_Lorem_Ipsum_üreteçleri_öncede {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: rgb(2, 39, 105);
+}
+._ShortInfo_div {
+  padding: 0px 60px;
+}
+._Galery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.thumbnail-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.thumbnail-images img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail-images img:hover {
+  transform: scale(1.1);
+}
+.connection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("./shutterstock_382309654.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.mapDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 400px;
+}
+.mapField {
+  width: 400px;
+  height: 300px;
+}
+
+.connectionItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  gap: 30px;
+  flex: 1;
+  padding: 20px;
+}
+
+.connectionItem span {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.connectionItem p {
+  font-size: 14px;
+  color: white;
+}
+
+.Bilgi_Al_Btn {
+  background-color: rgb(1, 122, 138);
+  color: wheat;
+  padding: 10px;
+  margin-left: 1400px;
+}
+.form-container {
+  color: white;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  height: 450px;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(1, 122, 138);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border-width: 1px;
+  color: white;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgb(1, 122, 138);
+  box-shadow: 0px 0px 38.25px 6.75px rgba(0, 0, 0, 0.2);
+}
+
+.textarea-field {
+  color: white;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: rgb(1, 122, 138);
+  box-shadow: 0px 0px 38.25px 6.75px rgba(0, 0, 0, 0.2);
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+.personal-data {
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  width: 202px;
+  height: 35px;
+  background-color: rgb(183, 141, 107);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.input-field::placeholder {
+  color: white;
+}
+.textarea-field::placeholder {
+  color: white;
+}
+.cta_btn {
+  background-color: rgb(1, 122, 136);
+  width: 143px;
+  color: white;
+  height: 35px;
+}
+.connectionItems {
+  display: flex;
+  flex-direction: row;
+}
+.connectionTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: white;
+}
+.connectionItem_Item {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.opportunity-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opportunity-content img {
+  width: 50px;
+  height: auto;
+}
+
+.opportunity-content span {
+  margin-top: 10px;
+}
+.opportunity-item:hover {
+  background-color: rgb(246, 218, 195);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  ._2_Kapak_Gorsel {
+    height: 400px;
+  }
+
+  ._3_Hakkında {
+    height: auto;
+    padding: 10px;
+  }
+
+  .right-side {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .lacivert_yazi_zemini,
+  .acik_mavi_yazi_zemini {
+    height: auto;
+    padding: 10px;
+  }
+
+  .opportunity-item {
+    width: 100px;
+    height: 108px;
+  }
+  .connectionItems {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .connectionItem {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .connectionItem_Item {
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  ._2_Kapak_Gorsel {
+    height: 300px;
+  }
+
+  ._3_Hakkında {
+    padding: 5px;
+  }
+
+  .lacivert_yazi_zemini,
+  .acik_mavi_yazi_zemini {
+    padding: 5px;
+  }
+
+  .right-side {
+    padding: 10px;
+  }
+
+  .Telefon_btn {
+    width: 150px;
+    height: 30px;
+  }
+
+  .Telefon_btn img {
+    margin-right: 5px;
+  }
+
+  ._90_252_623_99_38 {
+    font-size: 14px;
+  }
+
+  .Yinelenen_Bir_Sayfa_İçeriğinin_Okuyucunun_Dikka,
+  .Lorem_Ipsum_kullanmanın_amacı__sürekli__buraya_ {
+    font-size: 14px;
+  }
+
+  .opportunity-item {
+    width: 80px;
+    height: 88px;
+  }
+  .connectionItem {
+    padding: 10px;
+  }
+
+  .connectionTitle {
+    font-size: 20px;
+  }
+
+  .line {
+    width: 50px;
+  }
+
+  .connectionItem_Item {
+    align-items: flex-start;
+  }
+}
